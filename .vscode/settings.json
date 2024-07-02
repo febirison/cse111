@@ -1,0 +1,8 @@
+{
+    "python.testing.pytestArgs": [
+        "week03"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.analysis.typeCheckingMode": "basic"
+}
