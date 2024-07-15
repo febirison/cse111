@@ -1,0 +1,6 @@
+id,title,author,genre,checked_out,due_date,patron
+1,1984,George Orwell,Dystopian,False,,
+2,To Kill a Mockingbird,Harper Lee,Fiction,False,,
+3,The Great Gatsby,F. Scott Fitzgerald,Classics,False,,
+4,The Catcher in the Rye,J.D. Salinger,Classics,False,,
+5,Moby-Dick,Herman Melville,Adventure,False,,

@@ -1,0 +1,53 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program? Library Book Management System
+
+2. What real-world problem will your program address or help to solve?
+The Library Book Management System will help librarians efficiently manage the inventory of books in a library. It will provide functionalities for adding new books, updating book details, checking out books to patrons, returning books, and searching for books by various criteria (title, author, genre, etc.). This system will streamline the management process, reduce manual errors, and save time for library staff.
+
+3. What will you learn from developing this program?
+
+a. Mastery of file handling in Python for reading and writing data.
+b. Use Python modules such as CSV for data storage and datetime to manage due dates.
+c. Implementation of efficient search algorithms.
+d. Writing modular, reusable functions.
+e. Developing and running test cases using pytest to ensure code reliability.
+f. Experience with basic data validation and error handling techniques.
+
+4. What Python modules will your program use?
+
+a. 'csv' for handling book inventory data storage.
+b. 'datetime' for managing and calculating due dates for borrowed books.
+c. 'pytest' for testing functions.
+d. 'os' for file handling and management.
+
+5. List the names of functions you will need?
+
+a.'load_books(filename)': Load the list of books from a CSV file.
+b. 'save_books(filename, books)': Save the list of books to a CSV file.
+c. 'add_book(books, new_book)': Add a new book to the inventory.
+d. 'update_book(books, book_id, updated_info)': Update the details of an existing book.
+e. 'checkout_book(books, book_id, patron)': Check out a book to a patron.
+f. 'return_book(books, book_id)': Return a checked-out book.
+g. 'search_books(books, search_criteria)': Search for books based on various criteria.
+h. 'validate_book_info(book_info)': Validate the information of a new or updated book.
+I. 'calculate_due_date(current_date)': Calculate the due date for a borrowed book.
+
+6. List the names of the test functions you will write.
+
+a. 'test_add_book()': Test the functionality of adding a new book.
+b. 'test_update_book()': Test the functionality of updating book details.
+c. 'test_checkout_book()': Test the functionality of checking out a book.
+d. 'test_return_book()': Test the functionality of returning a book.
+e. 'test_search_books()': Test the searching functionality for books.
+f. 'test_validate_book_info()': Test the validation of book information.
+g. 'test_calculate_due_date()': Test the calculation of due dates.
